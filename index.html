@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Yunfei Xie">
+<title>Puzzle Game</title>
+<link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+	    <div >
+	    	<center>	<font3>
+                        <h2>8 Puzzle Rice Version</h2>
+                        <p>End Goal:</font3> <img src="goalimg.png"></p>
+                        <table id="table" style="cursor: pointer;">
+                            <tr>
+                                <font1><td id = 'c1' class = 'img1'>1</td></font1>
+                                <font1><td id = 'c2' class = 'img2'>2</td></font1>
+                                <font1><td id = 'c3'class = 'img3'>3</td></font1>
+                            </tr>
+                            <tr>
+                                <font2><td id = 'c4' class = 'img4'>8</td></font2>
+                                <td id = 'c5' class = 'img5'> </td>
+                                <font2><td id = 'c6' class = 'img6'>4</td></font2>
+                            </tr>
+                            <tr>
+                                <font1><td id = 'c7' class = 'img7'>7</td></font1>
+                                <font1><td id = 'c8' class = 'img8'>6</td></font1>
+                                <font1><td id = 'c9' class = 'img9'>5</td></font1>
+                            </tr>
+                        </table>
+                        <br />
+                        <font3><p>Moves: <label id="move"></label></p>
+                        <p>Time: <label id="minutes">00</label>:<label id="seconds">00</label></p></font3>
+                        <p>Best Moves: <label id="bestmove"></label></br> Best time:<label id="besttime"></label></br> Best level:<label label id="bestlevel"></label></p>
+                        <input id="clickMe" type="button" value="Random" onclick="shuffle();" />
+                        <input id="easy" type="button" value="Easy" onclick="easy();" />
+                        <input id="medium" type="button" value="Medium" onclick="medium();" />
+                        <input id="hard" type="button" value="Hard" onclick="hard();" />
+                        <h1><label id="win"></label></h1>
+                    </center>
+                    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>

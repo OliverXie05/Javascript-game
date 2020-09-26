@@ -1,0 +1,84 @@
+.img1{
+	background-image: url("test1.jpg");
+	 font-weight: bold;
+  color: white;
+}
+.img2{
+	background-image: url("test2.jpg");
+	font-weight: bold;
+  color: white;
+}
+.img3{
+	background-image: url("test3.jpg");
+	font-weight: bold;
+  color: white;
+}
+.img4{
+	background-image: url("test4.jpg");
+	  font-weight: bold;
+  color: darkgrey;
+}
+.img5{
+	background-image: url("test5.jpg");
+	opacity: 0.5;
+}
+.img5finish{
+	background-image: url("test5.jpg");
+	
+}
+.img6{
+	background-image: url("test6.jpg");
+	font-weight: bold;
+  color: darkgrey;
+}
+.img7{
+	background-image: url("test7.jpg");
+	font-weight: bold;
+  color: white;
+}
+.img8{
+	background-image: url("test8.jpg");
+	  font-weight: bold;
+  color: white;
+}
+.img9{
+	background-image: url("test9.jpg");
+	font-weight: bold;
+  color: white;
+}
+font1{
+  font-weight: bold;
+  color: white;
+}
+font2{
+  font-weight: bold;
+  color: darkgrey;
+}
+font3{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+input[type="button"]{
+	background-color: #555555;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 12px;
+}
+input[type="button"]:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+body {
+    background-color:powderblue;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #ccc;
+    padding: 50px;
+} 
